@@ -1,0 +1,57 @@
+SonarQube:- Continuos Code quality mgmt' tool
+----------
+Main purpose of implementing this tool is to perform Code review
+This tool is a software quality managment tool--->sonar
+
+- Static code analysis
+- Code Review:--> validating the code against the standards wether the developers followed standards of developing the code
+- Code coverage:-->no.of sourcecode lines tested by unittest cases
+
+Maven/Apache Tomcat--->work only for java lang'
+Sonarqube/Nexus/Jenkins--->Java as well as for other lang'
+
+Sonarqube identifies issues such as:
+------------------------------------
+- Dulipcate code
+- Coding standards
+- Unit tests
+- Complex code
+- comments
+- potential bugs
+- Architeture/design
+
+20+ lang' supported by SonarQube
+
+SQL-->Structured Query Lang'--->MySQL(Database),PostgreSQL, Oracle, MS SQL--->Relational DB
+
+Mongo DB
+
+SonarQube--->H2 DB
+
+Requirements:
+-------------
+2GB RAM
+1--->OS
+1--->SQ Server
+t2.micro--->1CPU
+t2.medium--->2CPU
+
+SonarQube Architecture:
+-----------------------
+
+Installation:
+-------------
+create sonarqube instance
+t2.medium
+java-->JRE
+sonar
+
+https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.6.1.59531.zip
+http://65.0.185.196:9000/
+
+mvn sonar:sonar
+
+Sonar: squ_371c4127c5dc508e0aee6a49e534f5fa910fcba3
+
+npm install
+npm run sonar
